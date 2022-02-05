@@ -65,6 +65,54 @@ function createHiraganaList(prefixes) {
         hiraganaList = hiraganaList.concat(["ga", "gi", "gu", "ge", "go"])
     }
 
+    if (prefixes.includes("N")) {
+        hiraganaList = hiraganaList.concat(["nya", "nyu", "nyo"])
+    }
+
+    if (prefixes.includes("C")) {
+        hiraganaList = hiraganaList.concat(["cha", "chu", "cho"])
+    }
+
+    if (prefixes.includes("S")) {
+        hiraganaList = hiraganaList.concat(["sha", "shu", "sho"])
+    }
+
+    if (prefixes.includes("K")) {
+        hiraganaList = hiraganaList.concat(["kya", "kyu", "kyo"])
+    }
+
+    if (prefixes.includes("G")) {
+        hiraganaList = hiraganaList.concat(["gya", "gyu", "gyo"])
+    }
+
+    if (prefixes.includes("R")) {
+        hiraganaList = hiraganaList.concat(["rya", "ryu", "ryo"])
+    }
+
+    if (prefixes.includes("M")) {
+        hiraganaList = hiraganaList.concat(["mya", "myu", "myo"])
+    }
+
+    if (prefixes.includes("H")) {
+        hiraganaList = hiraganaList.concat(["hya", "hyu", "hyo"])
+    }
+
+    if (prefixes.includes("P")) {
+        hiraganaList = hiraganaList.concat(["pya", "pyu", "pyo"])
+    }
+
+    if (prefixes.includes("B")) {
+        hiraganaList = hiraganaList.concat(["bya", "byu", "byo"])
+    }
+
+    if (prefixes.includes("D")) {
+        hiraganaList = hiraganaList.concat(["dzya", "dzyu", "dzyo"])
+    }
+
+    if (prefixes.includes("J")) {
+        hiraganaList = hiraganaList.concat(["jya", "jyu", "jyo"])
+    }
+
     return hiraganaList
 }
 
